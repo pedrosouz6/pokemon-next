@@ -1,0 +1,39 @@
+.pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: calc(100vh - 70px - 50px);
+}
+
+.pokemon img {
+    width: 250px;
+    height: 280px;
+}
+
+.pokemon h3 {
+    text-transform: capitalize;
+}
+
+.abilities {
+    display: flex;
+    gap: 1rem;
+}
+
+.abilities p {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+}
+
+.heightWeight {
+    display: flex;
+    gap: 1rem;
+}
+
+.heightWeight p:last-child {
+    border-left: 1px solid black;
+    padding-left: 1rem;
+}

@@ -1,0 +1,1 @@
+export const instance = 'https://pokeapi.co/api/v2/'
