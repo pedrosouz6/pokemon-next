@@ -17,7 +17,7 @@ export default function Home({ datas }) {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const response = await fetch(`${instance}/pokemon`);
   const json = await response.json();
   json.results.forEach((item, index) => {
